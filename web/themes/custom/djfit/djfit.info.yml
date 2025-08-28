@@ -1,0 +1,14 @@
+name: "DJFit"
+type: theme
+description: "A custom theme for DJFitness."
+package: Custom
+core_version_requirement: ^10 || ^11
+base theme: stable9
+libraries:
+  - djfit/global-styling
+regions:
+  header: "Header"
+  breadcrumb: "Breadcrumb"
+  highlighted: "Highlighted"
+  content: "Content"
+  footer: "Footer"

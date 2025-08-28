@@ -1,0 +1,19 @@
+{
+  "name": "djfitness",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass web/themes/custom/djfit/scss:web/themes/custom/djfit/css --style=expanded --source-map",
+    "watch": "sass --watch web/themes/custom/djfit/scss:web/themes/custom/djfit/css --style=expanded --source-map",
+    "build": "sass web/themes/custom/djfit/scss:web/themes/custom/djfit/css --style=compressed --no-source-map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}
