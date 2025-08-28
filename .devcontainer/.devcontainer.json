@@ -1,0 +1,9 @@
+{
+  "name": "Drupal DDEV Codespace",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/ddev:2": {}
+  },
+  "forwardPorts": [80, 443, 8025],
+  "postCreateCommand": "ddev start"
+}
